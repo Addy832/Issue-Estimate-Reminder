@@ -1,7 +1,9 @@
 Issue Estimate Reminder
+
 This repository contains the code for the GitHub App "Issue Estimate Reminder". The app automatically detects when a new GitHub issue is created and writes a comment to remind the issue creator to provide a time estimate if it’s missing. This functionality helps the team scope and schedule projects more effectively.
 
 Features
+
 Automatic Issue Detection: Listens for new issue events.
 Estimate Reminder: Comments on issues without an estimate in the format "Estimate: X days".
 Setup
@@ -75,3 +77,4 @@ Run RSpec tests:
 sh
 Copy code
 bundle exec rspec
+
