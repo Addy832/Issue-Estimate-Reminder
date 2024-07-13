@@ -1,14 +1,15 @@
 # README
 
-Issue Estimate Reminder
+#Issue Estimate Reminder
 
 This repository contains the code for the GitHub App "Issue Estimate Reminder". The app automatically detects when a new GitHub issue is created and writes a comment to remind the issue creator to provide a time estimate if it’s missing. This functionality helps the team scope and schedule projects more effectively.
 
-Features
+#Features
 
 Automatic Issue Detection: Listens for new issue events.
 Estimate Reminder: Comments on issues without an estimate in the format "Estimate: X days".
-Setup
+
+#Setup
 Prerequisites
 Ruby (version 2.5 or later)
 Bundler
@@ -58,7 +59,7 @@ Set up webhook forwarding using smee.io:
 sh
 Copy code
 smee -u https://smee.io/JFmHbyLtWI9q3tP5 -t http://localhost:3000/payload
-Testing the App
+#Testing the App
 Create a new issue in the test repository:
 
 Go to the "Issues" tab in your test repository (e.g., test---Issue-Estimate-Reminder).
@@ -74,7 +75,8 @@ Verify the comment:
 
 After creating the issue, the GitHub app should automatically detect the new issue and add a comment reminding you to provide an estimate in the format "Estimate: X days".
 Check the issue for the comment added by the GitHub app.
-Running RSpec Tests
+
+#Running RSpec Tests
 Run RSpec tests:
 sh
 Copy code
