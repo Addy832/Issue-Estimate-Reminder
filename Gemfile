@@ -1,9 +1,12 @@
+# Gemfile
+
 source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'octokit'
-gem 'puma'
 gem 'dotenv'
-gem 'json'
+gem 'jwt'
 gem 'rspec'
 gem 'rack-test'
+gem 'faraday-retry'
+gem 'faraday-multipart'
